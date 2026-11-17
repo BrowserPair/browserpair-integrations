@@ -1,0 +1,18 @@
+{
+  "name": "browserpair",
+  "owner": {
+    "name": "BrowserPair",
+    "email": "info@browserpair.com"
+  },
+  "metadata": {
+    "description": "Official BrowserPair integrations: let AI agents work in your own signed-in Chrome.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "browserpair",
+      "source": "./plugins/browserpair",
+      "description": "Let Cursor's agent work in your own signed-in Chrome, with approvals for sensitive steps and results checked on the page."
+    }
+  ]
+}

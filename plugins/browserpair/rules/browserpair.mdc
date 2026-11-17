@@ -1,0 +1,8 @@
+---
+description: When to use BrowserPair from Cursor
+alwaysApply: false
+---
+
+Use the BrowserPair tools when a task needs the user's real, signed-in Chrome session (an internal dashboard, a logged-in admin panel, a staging site behind SSO, a form that needs the user's account). For public pages that need no login, prefer a regular fetch or a headless browser.
+
+Never ask the user to paste passwords, one-time codes or card numbers into the chat. Sign-in and payment steps are confirmed by the user in Chrome.

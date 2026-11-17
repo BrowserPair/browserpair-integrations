@@ -1,0 +1,15 @@
+{
+  "name": "browserpair",
+  "displayName": "BrowserPair",
+  "version": "1.0.0",
+  "description": "Let Cursor's agent work in your own signed-in Chrome: open pages, read dashboards, fill forms and check results on the websites you already use, with your approval for sensitive steps.",
+  "author": {
+    "name": "BrowserPair",
+    "email": "info@browserpair.com"
+  },
+  "homepage": "https://browserpair.com",
+  "repository": "https://github.com/BrowserPair/browserpair-integrations",
+  "license": "MIT",
+  "keywords": ["browser", "chrome", "browser-automation", "mcp", "agent", "web", "testing", "qa"],
+  "logo": "assets/logo.svg"
+}
