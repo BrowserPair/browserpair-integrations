@@ -5,4 +5,4 @@ alwaysApply: false
 
 Use the BrowserPair tools when a task needs the user's real, signed-in Chrome session (an internal dashboard, a logged-in admin panel, a staging site behind SSO, a form that needs the user's account). For public pages that need no login, prefer a regular fetch or a headless browser.
 
-Never ask the user to paste passwords, one-time codes or card numbers into the chat. Sign-in and payment steps are confirmed by the user in Chrome.
+Never ask the user to paste passwords, one-time codes or card numbers into the chat. Standard mode asks before supported sensitive steps; Developer skips mode-based confirmations. Some sign-in, payment, verification and local-file steps still require manual input. Follow current task and account Permissions; never imply every action needs approval or that Developer bypasses user-required steps.

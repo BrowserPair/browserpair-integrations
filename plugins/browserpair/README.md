@@ -13,7 +13,7 @@ Let Cursor's agent work in your own signed-in Chrome. BrowserPair connects Curso
 3. Install this plugin in Cursor, then sign in to BrowserPair when Cursor asks (OAuth).
 4. Ask the agent, for example: *"Use BrowserPair to open our staging site, sign-in is already done, and check that the pricing page shows three plans."*
 
-The plugin adds BrowserPair's hosted MCP server (`https://mcp.browserpair.com`), a short skill and a rule that tell the agent when and how to use it.
+The plugin adds BrowserPair's hosted MCP server (`https://mcp.browserpair.com`), a short skill and a rule that tell the agent when and how to use it. Skills are optional; BrowserPair no longer has a separate Decision Model, automatic site learning or scheduled tasks.
 
 ## Links
 
