@@ -2,7 +2,7 @@
   "mcpServers": {
     "browserpair": {
       "type": "http",
-      "url": "https://mcp.browserpair.com"
+      "url": "https://mcp.browserpair.com/mcp"
     }
   }
 }

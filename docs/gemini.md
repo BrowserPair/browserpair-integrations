@@ -19,3 +19,5 @@ The extension uses `httpUrl` for Streamable HTTP and no embedded credential. Com
 The [CLI gallery](https://geminicli.com/docs/extensions/releasing/) discovers public repositories with the `gemini-cli-extension` topic and a root manifest, crawls daily and validates them. Adding the topic is a discovery request, not proof of gallery visibility.
 
 The official [preview interest form](https://connected.google.com/console/help/?apply=) routes existing Play Developer account administrators to the matching Play Console form. An access request joins a waitlist; it does not register or publish an approved consumer app.
+
+For clients that derive the OAuth resource from the server URL, use `https://mcp.browserpair.com/mcp` as declared by this package. The explicit `/mcp` endpoint avoids a root-URL trailing-slash mismatch while preserving the server’s resource validation.

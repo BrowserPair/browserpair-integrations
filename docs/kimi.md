@@ -18,3 +18,5 @@ This repository contains the root `kimi.plugin.json` manifest and uses only a re
 Complete the BrowserPair authorization when prompted; never enter an API key in the manifest.
 
 Sources: [Plugin format and installation](https://www.kimi.com/code/docs/en/kimi-code-cli/customization/plugins.html), [Personal plugins](https://www.kimi.com/en/help/plugins-and-skills/create), [Marketplace publication](https://www.kimi.com/en/help/plugins-and-skills/publish).
+
+For clients that derive the OAuth resource from the server URL, use `https://mcp.browserpair.com/mcp` as declared by this package. The explicit `/mcp` endpoint avoids a root-URL trailing-slash mismatch while preserving the server’s resource validation.

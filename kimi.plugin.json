@@ -11,7 +11,7 @@
   "skills": "./skills/",
   "mcpServers": {
     "browserpair": {
-      "url": "https://mcp.browserpair.com"
+      "url": "https://mcp.browserpair.com/mcp"
     }
   },
   "interface": {

@@ -5,7 +5,7 @@
   "contextFileName": "BROWSERPAIR.md",
   "mcpServers": {
     "browserpair": {
-      "httpUrl": "https://mcp.browserpair.com"
+      "httpUrl": "https://mcp.browserpair.com/mcp"
     }
   }
 }
