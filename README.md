@@ -40,3 +40,5 @@ You also need the [BrowserPair Chrome extension](https://chromewebstore.google.c
 ## Verify a connection
 
 Follow [connection, permissions and acceptance](docs/connection-and-testing.md). Platform-specific metadata contains no credentials, app source or production configuration. Publishing this repository does not by itself submit or approve a marketplace listing.
+
+The root `plugin.json` and `skills/` also expose a portable Agent Plugins package. Perplexity can import the repository from its Add custom menu, subject to account eligibility. See the [Perplexity guide](docs/perplexity.md).

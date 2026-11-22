@@ -8,7 +8,7 @@
   },
   "homepage": "https://browserpair.com",
   "license": "MIT",
-  "skills": "./plugins/browserpair/skills/",
+  "skills": "./skills/",
   "mcpServers": {
     "browserpair": {
       "url": "https://mcp.browserpair.com"
