@@ -6,7 +6,7 @@ Official, open-source integration packages that connect AI coding tools and agen
 
 | Integration | Path | Status |
 | --- | --- | --- |
-| Cursor plugin | [`plugins/browserpair`](plugins/browserpair) | Submitted to the Cursor Marketplace |
+| Cursor plugin | [`plugins/browserpair`](plugins/browserpair) | Plugin package in this repository (Marketplace listing not independently verified) |
 | Remote MCP (any MCP client) | `https://mcp.browserpair.com` (OAuth) | Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/com.browserpair%2Fbrowserpair/versions/latest) as `com.browserpair/browserpair` |
 
 These packages contain only connection metadata, skills and rules. BrowserPair's application and extension source code are private and maintained separately.
