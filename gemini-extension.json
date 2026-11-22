@@ -1,0 +1,11 @@
+{
+  "name": "browserpair",
+  "version": "1.0.0",
+  "description": "Work in your own signed-in Chrome with BrowserPair.",
+  "contextFileName": "BROWSERPAIR.md",
+  "mcpServers": {
+    "browserpair": {
+      "httpUrl": "https://mcp.browserpair.com"
+    }
+  }
+}

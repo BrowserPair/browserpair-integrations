@@ -8,6 +8,12 @@ Official, open-source integration packages that connect AI coding tools and agen
 | --- | --- | --- |
 | Cursor plugin | [`plugins/browserpair`](plugins/browserpair) | Plugin package in this repository (Marketplace listing not independently verified) |
 | Remote MCP (any MCP client) | `https://mcp.browserpair.com` (OAuth) | Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/com.browserpair%2Fbrowserpair/versions/latest) as `com.browserpair/browserpair` |
+| Kimi | [`docs/kimi.md`](docs/kimi.md) | Public connection package; live acceptance and directory review tracked separately |
+| Grok / Grok Bot / Grok Build | [`docs/grok.md`](docs/grok.md) | Public connection package; live acceptance and directory review tracked separately |
+| Perplexity | [`docs/perplexity.md`](docs/perplexity.md) | Public connection package; live acceptance and directory review tracked separately |
+| Mistral Le Chat / Vibe | [`docs/mistral.md`](docs/mistral.md) | Public connection package; live acceptance and directory review tracked separately |
+| Manus | [`docs/manus.md`](docs/manus.md) | Public connection package; live acceptance and directory review tracked separately |
+| Gemini / Gemini CLI | [`docs/gemini.md`](docs/gemini.md) | Public connection package; live acceptance and directory review tracked separately |
 
 These packages contain only connection metadata, skills and rules. BrowserPair's application and extension source code are private and maintained separately.
 
@@ -30,3 +36,7 @@ You also need the [BrowserPair Chrome extension](https://chromewebstore.google.c
 ## Links
 
 [Website](https://browserpair.com) · [Documentation](https://docs.browserpair.com/) · [Product hub](https://github.com/BrowserPair/browserpair) · [Support](https://browserpair.com/support) · [Security](https://browserpair.com/security)
+
+## Verify a connection
+
+Follow [connection, permissions and acceptance](docs/connection-and-testing.md). Platform-specific metadata contains no credentials, app source or production configuration. Publishing this repository does not by itself submit or approve a marketplace listing.

@@ -1,0 +1,30 @@
+{
+  "name": "browserpair",
+  "version": "1.0.0",
+  "description": "Work in your own signed-in Chrome with BrowserPair.",
+  "author": {
+    "name": "BrowserPair",
+    "email": "info@browserpair.com"
+  },
+  "homepage": "https://browserpair.com",
+  "license": "MIT",
+  "skills": "./plugins/browserpair/skills/",
+  "mcpServers": {
+    "browserpair": {
+      "url": "https://mcp.browserpair.com"
+    }
+  },
+  "interface": {
+    "displayName": "BrowserPair",
+    "shortDescription": "Use your own signed-in Chrome",
+    "developerName": "BrowserPair",
+    "websiteURL": "https://browserpair.com",
+    "mcpOverrides": {
+      "browserpair": {
+        "displayName": "BrowserPair",
+        "description": "Browser tasks in your own signed-in Chrome. OAuth required.",
+        "iconUrl": "https://browserpair.com/mark.svg"
+      }
+    }
+  }
+}

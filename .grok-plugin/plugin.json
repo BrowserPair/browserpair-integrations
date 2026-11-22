@@ -1,0 +1,13 @@
+{
+  "name": "browserpair",
+  "version": "1.0.0",
+  "description": "Work in your own signed-in Chrome with BrowserPair.",
+  "author": {
+    "name": "BrowserPair",
+    "email": "info@browserpair.com"
+  },
+  "homepage": "https://browserpair.com",
+  "repository": "https://github.com/BrowserPair/browserpair-integrations",
+  "license": "MIT",
+  "skills": "./plugins/browserpair/skills/browserpair"
+}
