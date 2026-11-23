@@ -2,7 +2,7 @@
 
 BrowserPair is a hosted remote MCP server at `https://mcp.browserpair.com`. It uses Streamable HTTP, OAuth authorization-code with PKCE S256 and dynamic client registration. Discovery is served at `/.well-known/oauth-authorization-server` and `/.well-known/oauth-protected-resource`. No shared API key, local executable, lifecycle hook or new backend is included in these packages.
 
-Install the [BrowserPair Chrome extension](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof), sign in to BrowserPair, and keep the selected Chrome profile online. Connect from your client and select only the browsers you intend that client to use in the BrowserPair consent screen.
+Install the [BrowserPair Chrome extension](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof), sign in to BrowserPair, and keep the selected Chrome profile online. In ChatGPT, use the [published BrowserPair plugin](https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668) rather than a custom MCP server; other supported MCP clients connect through their own OAuth setup. Select only the browsers you intend that client to use in the BrowserPair consent screen.
 
 ## Permissions and data
 
