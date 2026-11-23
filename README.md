@@ -6,6 +6,7 @@ Official, open-source integration packages that connect AI coding tools and agen
 
 | Integration | Path | Status |
 | --- | --- | --- |
+| ChatGPT | [Published BrowserPair plugin](https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668) | Published in ChatGPT; select **Connect** and authorize your browser |
 | Cursor plugin | [`plugins/browserpair`](plugins/browserpair) | Plugin package in this repository (Marketplace listing not independently verified) |
 | Remote MCP (any MCP client) | `https://mcp.browserpair.com` (OAuth) | Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/com.browserpair%2Fbrowserpair/versions/latest) as `com.browserpair/browserpair` |
 | Kimi | [`docs/kimi.md`](docs/kimi.md) | Public connection package; live acceptance and directory review tracked separately |
@@ -16,6 +17,10 @@ Official, open-source integration packages that connect AI coding tools and agen
 | Gemini / Gemini CLI | [`docs/gemini.md`](docs/gemini.md) | Public connection package; live acceptance and directory review tracked separately |
 
 These packages contain only connection metadata, skills and rules. BrowserPair's application and extension source code are private and maintained separately.
+
+## Connect BrowserPair in ChatGPT
+
+Open the [published BrowserPair plugin](https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668) in ChatGPT and select **Connect**. Sign in to BrowserPair and choose which connected Chrome browser to authorize. The published plugin uses OAuth; you do **not** need to add a custom MCP server or enable ChatGPT Developer mode for this setup. See the [ChatGPT guide](https://docs.browserpair.com/chatgpt).
 
 ## Use BrowserPair from any MCP client
 
