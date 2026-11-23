@@ -1,0 +1,19 @@
+name: Validate integration packages
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Manifest and package validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check integration manifests and references
+        run: python3 scripts/validate_integrations.py
